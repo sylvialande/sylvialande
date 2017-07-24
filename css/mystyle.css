@@ -1,0 +1,241 @@
+/* Section Border Styling */
+
+header, nav, section, article, aside, footer{
+    border: 4px solid #efd36b;         
+} 
+
+/* Body Styling and Google Font choice */
+
+body{
+    font-family: Roboto, Calibri, sans-serif;
+    background-color: #f2d58c;
+    margin:auto;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Cambo, Cambria, serif;
+}
+
+/* Header Styling */
+
+header{
+    background-color: #d15c69;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 240px;
+    height: 340px;
+}
+
+.header-search-box{
+    text-align: right;
+    color: #f2d58c;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-right: 20px;
+    border: 0px;
+}
+
+.index{
+    background-image: url("../images/3-fragaria-vesca-1-home.png");
+}
+
+.about{
+    background-image: url("../images/3-fragaria-vesca-2-about.png");
+}
+
+.contact{
+    background-image: url("../images/3-fragaria-vesca-3-contact.png");
+}
+
+.first-h2{
+    color: #4fd1bd;
+    background-color: #0e4d84;
+    text-align: center;
+    padding: 5px;
+    border: 6px solid #afd655;
+    margin-top: -3px;
+}
+
+.second-h3{
+    color:#efd36b; 
+    text-align: left;
+    padding-left: 45px;
+    margin: -10px;
+}
+
+.third-h4{
+    color:#4fd1bd; 
+    text-align: center;
+}
+
+.fourth-h2{
+    color:#0e4d84; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-h2{
+    color:#0e4d84; 
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+/* Navigation Bar Styling */
+
+.nav-top-position-left{
+    width: 35%;
+    height: 8%;
+    float: left; 
+    background-color: #36a552;
+}
+
+nav-top-position-center{
+    width: 40%;
+    height: 8%;
+    float: right; 
+    background-color: #36a552;
+}
+
+.nav-top-position-right{
+    width: 30%;
+    height: 8%;
+    float: right; 
+    background-color: #36a552;
+}
+
+.nav-top-links{
+    display:inline-block;
+    color: #0e4d84;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 15px;
+}
+
+.nav-top-media-links{
+    display:inline-block;
+    color: #0e4d84;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 15px;
+}
+
+nav ul li a:{
+    text-decoration: none;
+}
+
+nav a:link{
+    text-decoration: none;
+    font-family: Roboto, Calibri, sans-serif;
+    font-size: 20px;
+    color: #4fd1bd;
+    background: #0e4d84;
+    padding: 7px 14px;
+}
+
+nav a:visited{
+    color: #ed0b4b;
+}
+
+nav a:hover{
+    color: #000000;
+    background: #d15c69;
+}
+
+
+/* --- Parent container - Flex  --- */
+.flex-parent {
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+    }
+
+/* --- Flex Items --- */
+
+.p-home-1{
+    margin: 0 0 6px;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+    color: #0e058e;    
+}
+
+.p-home-2{
+    margin: 10px 0 6px 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+    color: #0e058e;    
+}
+
+
+.p-about{
+    margin: 10px 20px 0px 30px;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+    color: #0e058e;  
+}
+
+.box {
+    height: 135px;
+    min-width: 250px;
+    min-height: 110px;
+    margin: 10px 0;
+ }
+
+#box-about {
+    height: 350px;
+    min-width: 250px;
+    min-height: 110px;
+    margin: 10px 0;
+    background: #b6f97f;
+ }
+
+
+
+.one {
+    background: #fce7b3;
+}
+
+.two {
+    background: #b6f97f;
+}
+
+.three {
+    background: #fce7b3;
+}
+
+
+#two-home {
+    background: #b6f97f;
+    background-image: url(../images/1-necklace-5.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom center;
+    
+}
+
+#two-about {
+    background: #b6f97f;
+}
+
+
+#three-home {
+    background: #fce7b3;
+    background-image: url(../images/1-earrings-1.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom center;
+}
+
+/* Footer Styling */
+
+#footer {
+    font-size: 16px;
+    text-align: center center;
+    color: #0e4d84;
+    background-color: #efd36b;
+    padding: 12px 8px 6px 30px;
+    height: 30px;
+}
